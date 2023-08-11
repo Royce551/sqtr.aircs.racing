@@ -1,5 +1,56 @@
+:root {
+    --primary_text_color: white;
+    --secondary_text_color: #DADADA;
+    --foreground_color: #2C2F33;
+    --secondary_color: #323539;
+    --content_font_size: 20px;
+    --small_font_size: 9px;
+    --larger_font_size: 25px;
+    --big_font_size: 40px;
+}
+
+html {
+    font-size: var(--content_font_size);
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    color: var(--primary_text_color);
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: black;
+}
+
+h1 {
+    font-size: var(--big_font_size);
+}
+h2 {
+    font-size: var(--larger_font_size)
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+}
+
+.prompt {
+    background: #D50000;
+    padding: 0px 5px 0px 5px;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.extrarightmargin {
+    margin: 0px 5px 0px 0px;
 }
