@@ -28,17 +28,26 @@ h1 {
 h2 {
     font-size: var(--larger_font_size)
 }
-
 .map {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     height: 95%;
+}
+
+@media (min-width: 1500px) {
+    .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 95%;
+    }
 }
 
 .prompt {
     background: #D50000;
     padding: 0px 5px 0px 5px;
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
 }
 
 .content {
