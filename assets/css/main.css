@@ -43,10 +43,10 @@ h2 {
 }
 
 .prompt {
-    background: #D50000;
+   
     padding: 0px 5px 0px 5px;
     margin: auto;
-
+    width: 100%;
     border-radius: 5px;
 }
 
